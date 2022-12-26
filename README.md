@@ -1,6 +1,6 @@
 # Blog Website
 
-## An online blog website using javascript, ejs, nodejs.
+## An online blog website using nodejs, express, ejs.
 
 ## mongoDB atlas is used as database
 
