@@ -1,0 +1,15 @@
+<%- include('partials/header') %> 
+<h1>Compose</h1>
+<p> <%= homeContent %>  </p> 
+
+<%  posts.forEach(function(post){  %> <%# posts from app is passed to this posts and iterating over through forEach loop %>  
+    <h1> <%= post.title %>  </h1> 
+    <p> 
+        <%= post.content.substring(0,100)+' ...' %>  <%# truncating within 100 chr %> 
+        <a href="/posts/<%=post._id%>">Read More</a> <%# rendering to post.title route. app.get('/posts/:topic will catch this') %> 
+    </p>
+    <form action="/delete" method="post">
+        <button type="submit" name="id" value= <%= post._id %> class="btn btn-primary" >Delete</button>
+    </form>
+<%  })  %>
+<%- include('partials/footer') %> <%# including header and footer file %>

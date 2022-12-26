@@ -1,0 +1,16 @@
+<%- include('partials/header') %> 
+<h1>Compose</h1>
+<form action="/compose", method="post"> <%# app.post('/compose') will catch this post req %> 
+    <div class="form-group">
+      <label for="title">Title</label>
+      <input type="text" class="form-control" id="title" name="title"> <%# title input named as title %> 
+    </div>
+    <div class="form-group">
+      <label for="content">Content</label> 
+      <%# textarea  input named as content , req.body.content will use this name to identify content%> 
+      <textarea class="form-control" name="content" id="content" name="content" cols="30" rows="10"></textarea> 
+    </div>
+    
+    <button type="submit" name="btn" class="btn btn-primary">Submit</button>
+  </form>
+<%- include('partials/footer') %> 
