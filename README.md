@@ -5,7 +5,7 @@ An online Daily Journal Blog website
 
 ## Screenshots
 
-![Online-Todolist](https://raw.githubusercontent.com/SalmanSamiKhan/blog-db/master/public/css/sample.jpg)
+![blog website](https://raw.githubusercontent.com/SalmanSamiKhan/blog-db/master/public/sample.jpg)
 
 
 ## Demo Website
