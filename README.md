@@ -1,20 +1,17 @@
 # Online Blog
 
-An online Daily Journal Blog website
+An Online Journal Blog Website
 
+## Live
+[Live](https://blog-site.cyclic.app/)
 
 ## Screenshots
 
 ![blog website](https://raw.githubusercontent.com/SalmanSamiKhan/blog-db/master/public/sample.jpg)
 
 
-## Demo Website
-Deployment Platform: [Render](https://www.render.com) <br/>
-[Demo Website](https://blog-8c4l.onrender.com)
-
-
 ## About
-This is daily journal blog.
+This is a daily journal blog.
 A user can add delete articles and save the updates on database.
 
 ## Built With
