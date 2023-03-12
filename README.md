@@ -1,9 +1,8 @@
 # Online Blog
 
-An Online Journal Blog Website
+## An Online Journal Blog Website
 
-## Live
-[Live](https://blog-site.cyclic.app/)
+# [Live](https://blog-site.cyclic.app/)
 
 ## Screenshots
 
